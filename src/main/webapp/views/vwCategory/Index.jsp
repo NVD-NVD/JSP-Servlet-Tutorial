@@ -26,7 +26,7 @@
 					<c:forEach items="${categories}" var="c">
 						<tr>
 							<td>${c.catID}</td>
-							<td>-${c.cateName}</td>
+							<td>-${c.catName}</td>
 							<td>
 								<button type="submit"></button>
 							</td>

@@ -2,14 +2,14 @@ package com.ute.jspservlettutorial.beans;
 
 public class Category {
     private int CatID;
-    private String CateName;
+    private String CatName;
 
     public Category() {
     }
 
-    public Category(int catID, String cateName) {
+    public Category(int catID, String catName) {
         CatID = catID;
-        CateName = cateName;
+        CatName = catName;
     }
 
     public int getCatID() {
@@ -20,11 +20,11 @@ public class Category {
         CatID = catID;
     }
 
-    public String getCateName() {
-        return CateName;
+    public String getCatName() {
+        return CatName;
     }
 
-    public void setCateName(String cateName) {
-        CateName = cateName;
+    public void setCatName(String catName) {
+        CatName = catName;
     }
 }
